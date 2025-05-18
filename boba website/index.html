@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .image-card {
+            padding: 0;
+            overflow: hidden;
+        }
+        .image-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .welcome-card {
+            background: linear-gradient(45deg, #ff6b6b, #feca57);
+            color: white;
+        }
+        .info-card {
+            background: linear-gradient(45deg, #4834d4, #686de0);
+            color: white;
+        }
+        .feature-card {
+            background: linear-gradient(45deg, #6ab04c, #badc58);
+            color: white;
+        }
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+        .emoji-decoration {
+            font-size: 2rem;
+            text-align: center;
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hello, World! 👋</h1>
+        
+        <div class="card image-card">
+            <img src="https://images.unsplash.com/photo-1558857563-b371033873b8?auto=format&fit=crop&w=800" alt="Bubble Tea">
+        </div>
+
+        <div class="card welcome-card">
+            <p>Welcome to my colorful website, that I am making for my friends, because we want boba.</p>
+            <div class="emoji-decoration">🎨</div>
+        </div>
+
+        <div class="card info-card">
+            <p>Did you know? Colors can greatly influence how we feel... but we are not going to talk about that.</p>
+            <div class="emoji-decoration">💡</div>
+        </div>
+
+        <div class="card feature-card">
+            <p>This website features some random animations, gradient backgrounds, and interactive elements. Try hovering over these cards to see them in action!</p>
+            <div class="emoji-decoration">✨</div>
+        </div>
+    </div>
+</body>
+</html> 
